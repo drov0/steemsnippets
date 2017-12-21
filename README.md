@@ -9,3 +9,11 @@ If you try a snippet and it ends up not working/is outdated, please open an issu
 Don't hesitate to submit a pull request if you want to contribute to the collection.
 
 Made by @Howo : https://utopian.io/@howo
+
+
+# Current snippets :
+
+## Steemjs
+
+- How to use the testnet by @almost-digital : https://testnet.steem.vc/
+

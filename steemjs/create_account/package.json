@@ -1,8 +1,8 @@
 {
-  "name": "use_testnert",
+  "name": "create_account",
   "version": "1.0.0",
-  "description": "How to use the testnet",
-  "main": "use_testnet.js",
+  "description": "How to create an account",
+  "main": "create_account.js",
   "dependencies": {
     "steem": "^0.6.7"
   },
