@@ -1,0 +1,15 @@
+{
+  "name": "use_testnert",
+  "version": "1.0.0",
+  "description": "How to use and create an account on the testnet",
+  "main": "use_testnet.js",
+  "dependencies": {
+    "steem": "^0.6.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Lees",
+  "license": "GNU"
+}
