@@ -4,6 +4,7 @@
   "description": "How to create an account",
   "main": "create_account.js",
   "dependencies": {
+    "dsteem": "^0.8.6",
     "steem": "^0.6.7"
   },
   "devDependencies": {},
