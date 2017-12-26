@@ -1,6 +1,7 @@
 var steem = require('steem');
 
-gu/**
+
+/**
  * Tests if an username/password pair is correct
  * @param {String} username - username of the account
  * @param {String} password - password of the account
@@ -26,6 +27,7 @@ function login_using_password(username, password) {
         return false;
     });
 }
+
 /**
  * Tests if an username/password pair is correct
  * @param {String} username - username of the account
