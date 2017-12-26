@@ -15,5 +15,6 @@ Made by @Howo : https://utopian.io/@howo
 
 ## Steemjs
 
-- How to use the testnet by @almost-digital : https://testnet.steem.vc/
-
+- How to use the @almost-digital's testnet : https://testnet.steem.vc/
+- How to create an account
+- How to test if an username/password or username/privatekey is correct
