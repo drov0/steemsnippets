@@ -15,11 +15,13 @@ Made by @Howo : https://utopian.io/@howo
 
 ## Steemjs
 
-- How to use the @almost-digital's testnet : https://testnet.steem.vc/
-- How to create an account
-- How to test if an username/password or username/privatekey is correct
+- [How to use the @almost-digital's testnet : https://testnet.steem.vc/](https://github.com/drov0/steemsnippets/tree/master/steemjs/use_testnet)
+- [How to create an account](https://github.com/drov0/steemsnippets/tree/master/steemjs/create_account)
+- [How to test if an username/password or username/privatekey is correct](https://github.com/drov0/steemsnippets/tree/master/steemjs/test_login)
+- [How to post an article](https://github.com/drov0/steemsnippets/tree/master/steemjs/post)
+- [How to comment on an article](https://github.com/drov0/steemsnippets/tree/master/steemjs/comment)
 
-## How to contribute
+# How to contribute
 
 I obviously accept external pull requests. Look up github's documentation on [How to create a pull request](https://help.github.com/articles/creating-a-pull-request/) on how to do so. But make sure you follow these rules :
 
