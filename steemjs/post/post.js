@@ -7,7 +7,7 @@ var steem = require('steem');
  * @param {String} main_tag - The main tag for the post
  * @param {String} title - Title of the post
  * @param {String} body - body (content) of the post.
- * @param {String} [jsonMetadata] - dictionnary with additional tags, app name, etc,
+ * @param {object} [jsonMetadata] - dictionnary with additional tags, app name, etc,
  * @param {String} [permlink] - permanent link, by default it's the date + -post. eg : 20171237t122520625z-post
  */
 function post(username, password, main_tag, title, body, jsonMetadata, permlink) {
@@ -21,5 +21,5 @@ function post(username, password, main_tag, title, body, jsonMetadata, permlink)
     });
 }
 // example
-post("username", "password", "tag1", "title", "body");
+post("username", "password", "tag1", "title", "body", { tags: ['tag2', 'tag3']});
 
