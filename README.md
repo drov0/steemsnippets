@@ -20,7 +20,7 @@ Made by @Howo : https://utopian.io/@howo
 - [How to test if an username/password or username/privatekey is correct](https://github.com/drov0/steemsnippets/tree/master/steemjs/test_login)
 - [How to post an article](https://github.com/drov0/steemsnippets/tree/master/steemjs/post)
 - [How to comment on an article](https://github.com/drov0/steemsnippets/tree/master/steemjs/comment)
-
+- [How to cast a vote/flag](https://github.com/drov0/steemsnippets/tree/master/steemjs/vote)
 # How to contribute
 
 I obviously accept external pull requests. Look up github's documentation on [How to create a pull request](https://help.github.com/articles/creating-a-pull-request/) on how to do so. But make sure you follow these rules :
