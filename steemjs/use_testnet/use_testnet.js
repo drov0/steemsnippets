@@ -1,6 +1,6 @@
 var steem = require('steem');
 
-var testnet = true; // set to true if you want to use the testnet
+var testnet = false; // set to true if you want to use the testnet
 
 if (testnet)
 {
@@ -14,3 +14,6 @@ if (testnet)
 steem.api.getAccounts(['foo'], function(err, response){
     console.log(response[0].balance); // Should be 0.000 STEEM for the mainnet and 1M+ for the testnet
 });
+
+
+
