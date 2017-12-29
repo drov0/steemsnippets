@@ -13,7 +13,7 @@ Made by @Howo : https://utopian.io/@howo
 
 # Current snippets :
 
-## Steemjs
+## [Steem-js](https://github.com/steemit/steem-js)
 
 - [How to use the @almost-digital's testnet : https://testnet.steem.vc/](https://github.com/drov0/steemsnippets/tree/master/steemjs/use_testnet)
 - [How to create an account](https://github.com/drov0/steemsnippets/tree/master/steemjs/create_account)
@@ -21,6 +21,11 @@ Made by @Howo : https://utopian.io/@howo
 - [How to post an article](https://github.com/drov0/steemsnippets/tree/master/steemjs/post)
 - [How to comment on an article](https://github.com/drov0/steemsnippets/tree/master/steemjs/comment)
 - [How to cast a vote/flag](https://github.com/drov0/steemsnippets/tree/master/steemjs/vote)
+
+## [Dsteem](https://github.com/jnordberg/dsteem)
+
+- [How to post an article](https://github.com/drov0/steemsnippets/tree/master/dsteem/post)
+
 # How to contribute
 
 I obviously accept external pull requests. Look up github's documentation on [How to create a pull request](https://help.github.com/articles/creating-a-pull-request/) on how to do so. But make sure you follow these rules :
