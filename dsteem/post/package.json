@@ -1,0 +1,15 @@
+{
+  "name": "post",
+  "version": "1.0.0",
+  "description": "Posts an article to the steem blockchain using the dsteem library",
+  "main": "post.js",
+  "dependencies": {
+    "dsteem": "^0.8.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Lees",
+  "license": "GNU"
+}
