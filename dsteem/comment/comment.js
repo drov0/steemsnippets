@@ -29,7 +29,6 @@ function comment(username, password, author,  permlink, text, jsonMetadata) {
     }, function(error) {
         console.error(error)
     });
-
 }
 
 // example

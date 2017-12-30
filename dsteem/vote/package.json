@@ -1,8 +1,8 @@
 {
-  "name": "post",
+  "name": "vote",
   "version": "1.0.0",
-  "description": "Comment on an article to the steem blockchain using the dsteem library",
-  "main": "comment.js",
+  "description": "How to cast a vote on an article using dsteem",
+  "main": "vote.js",
   "dependencies": {
     "dsteem": "^0.8.6"
   },
