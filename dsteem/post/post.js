@@ -17,7 +17,8 @@ function post(username, password, main_tag, title, body, jsonMetadata, permlink)
     permlink = permlink || new Date().toISOString().replace(/[^a-zA-Z0-9]+/g, '').toLowerCase();
     jsonMetadata = jsonMetadata || "";
 
-    client.broadcast.comment({author: username,
+    client.broadcast.comment({
+        author: username,
         title : title,
         body : body,
         json_metadata : jsonMetadata,
