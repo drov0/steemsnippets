@@ -25,6 +25,8 @@ Made by @Howo : https://utopian.io/@howo
 ## [Dsteem](https://github.com/jnordberg/dsteem)
 
 - [How to post an article](https://github.com/drov0/steemsnippets/tree/master/dsteem/post)
+- [How to comment on an article](https://github.com/drov0/steemsnippets/tree/master/dsteem/comment)
+- [How to cast a vote/flag](https://github.com/drov0/steemsnippets/tree/master/dsteem/vote)
 
 # How to contribute
 
