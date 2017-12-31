@@ -8,7 +8,7 @@ If you try a snippet and it ends up not working/is outdated, please open an issu
 
 Don't hesitate to submit a pull request if you want to contribute to the collection.
 
-Made by @Howo : https://utopian.io/@howo
+Made by @Howo : https://steemit.com/@howo
 
 
 # Current snippets :
