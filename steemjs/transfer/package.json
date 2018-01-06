@@ -1,0 +1,15 @@
+{
+  "name": "post",
+  "version": "1.0.0",
+  "description": "Transfers sp or sbd to another user",
+  "main": "transfer.js",
+  "dependencies": {
+    "steem": "^0.6.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Lees",
+  "license": "GNU"
+}
