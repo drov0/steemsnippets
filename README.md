@@ -21,6 +21,8 @@ Made by @Howo : https://steemit.com/@howo
 - [How to post an article](https://github.com/drov0/steemsnippets/tree/master/steemjs/post)
 - [How to comment on an article](https://github.com/drov0/steemsnippets/tree/master/steemjs/comment)
 - [How to cast a vote/flag](https://github.com/drov0/steemsnippets/tree/master/steemjs/vote)
+- [How to get the voting power of an user ](https://github.com/drov0/steemsnippets/tree/master/steemjs/voting_power)
+- [How to transfer steem/sbd](https://github.com/drov0/steemsnippets/tree/master/steemjs/transfer)
 
 ## [Dsteem](https://github.com/jnordberg/dsteem)
 
