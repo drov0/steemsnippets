@@ -10,6 +10,8 @@ from steem import Steem
         where appropriate.
 
         Args:
+            username (str) : Username of the account posting
+            wif (str) : posting key of the account posting
             title (str): Title of the post
             body (str): Body of the post/comment
             author (str): Account are you posting from
