@@ -30,6 +30,13 @@ Made by @Howo : https://steemit.com/@howo
 - [How to comment on an article](https://github.com/drov0/steemsnippets/tree/master/dsteem/comment)
 - [How to cast a vote/flag](https://github.com/drov0/steemsnippets/tree/master/dsteem/vote)
 
+## [steem-python](https://github.com/steemit/steem-python)
+
+- [How to post an article](https://github.com/drov0/steemsnippets/tree/master/steem-python/post)
+- [How to cast a vote/flag](https://github.com/drov0/steemsnippets/tree/master/steem-python/vote)
+
+
+
 # How to contribute
 
 I obviously accept external pull requests. Look up github's documentation on [How to create a pull request](https://help.github.com/articles/creating-a-pull-request/) on how to do so. But make sure you follow these rules :
