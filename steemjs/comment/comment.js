@@ -1,7 +1,7 @@
 var steem = require('steem');
 
 /**
- * Creates an account, note that almost no validation is done.
+ * Posts a comment on an already existing article
  * @param {String} username - username of the account
  * @param {String} password - password of the account
  * @param {String} author - Author of the post to comment to
