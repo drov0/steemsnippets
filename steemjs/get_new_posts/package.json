@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "How to get new posts",
   "main": "get_new_posts.js",
+  "dependencies": {
+    "steem": "^0.6.7"
+  },
+  "devDependencies": {},  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
