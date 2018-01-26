@@ -1,0 +1,15 @@
+{
+  "name": "get_new_posts",
+  "version": "1.0.0",
+  "description": "How to get new posts",
+  "main": "get_new_posts.js",
+  "dependencies": {
+    "steem": "^0.6.7"
+  },
+  "devDependencies": {},  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Trevor Reid <trevor.d.reid@gmail.com> (http://steemit.com/@tdre)",
+  "license": "GPL-3.0"
+}
