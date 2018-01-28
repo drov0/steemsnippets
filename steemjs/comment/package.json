@@ -1,5 +1,5 @@
 {
-  "name": "post",
+  "name": "comment",
   "version": "1.0.0",
   "description": "Comments on an article on the steem blockchain",
   "main": "comment.js",
