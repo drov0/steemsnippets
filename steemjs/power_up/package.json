@@ -1,5 +1,5 @@
 {
-  "name": "vote",
+  "name": "power_up",
   "version": "1.0.0",
   "description": "Power up x steem to voting power",
   "main": "power_up.js",
