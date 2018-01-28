@@ -1,7 +1,7 @@
 var steem = require('steem');
 
 /**
- * Creates an account, note that almost no validation is done.
+ * Casts a vote.
  * @param {String} username - username of the voter account
  * @param {String} password - password of the voter account
  * @param {String} author - Author of the post
