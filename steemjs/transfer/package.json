@@ -1,5 +1,5 @@
 {
-  "name": "post",
+  "name": "transfer",
   "version": "1.0.0",
   "description": "Transfers sp or sbd to another user",
   "main": "transfer.js",

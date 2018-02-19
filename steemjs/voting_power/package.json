@@ -1,5 +1,5 @@
 {
-  "name": "post",
+  "name": "voting_power",
   "version": "1.0.0",
   "description": "Gets the voting power of an user",
   "main": "voting_power.js",

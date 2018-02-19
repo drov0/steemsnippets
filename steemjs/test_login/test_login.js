@@ -5,7 +5,7 @@ var steem = require('steem');
  * Tests if an username/password pair is correct
  * @param {String} username - username of the account
  * @param {String} password - password of the account
- * @return {boolean} valid - True of the password is correct, false if not (or if the account doesn't exists)
+ * @return {boolean} valid - True if the password is correct, false if not (or if the account doesn't exists)
  */
 function login_using_password(username, password) {
     // Get the private posting key
@@ -33,7 +33,7 @@ function login_using_password(username, password) {
  * @param {String} username - username of the account
  * @param {String} wif - Private key used for login
  * @param {String} type - Type of the private key, can be "posting", "active" or "owner"
- * @return {boolean} valid - True of the password is correct, false if not (or if the account doesn't exists)
+ * @return {boolean} valid - True if the password is correct, false if not (or if the account doesn't exists)
  */
 function login_using_wif(username, wif, type) {
     // Get the private posting key
