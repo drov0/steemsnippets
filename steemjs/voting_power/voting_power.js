@@ -1,5 +1,5 @@
 var steem = require('steem');
-
+steem.api.setOptions({url: 'https://api.steemit.com'});
 /**
  * Gets the voting power of an account. code mostly by stoodkev
  * @param {String} account - account of whom we want to check the steem power

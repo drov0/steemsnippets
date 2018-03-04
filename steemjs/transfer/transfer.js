@@ -1,5 +1,5 @@
 var steem = require('steem');
-
+steem.api.setOptions({url: 'https://api.steemit.com'});
 /**
  * Transfers sp or sbd to another account
  * @param {String} wif - active key of the account we want to transfer from

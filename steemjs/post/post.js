@@ -1,5 +1,5 @@
 var steem = require('steem');
-
+steem.api.setOptions({url: 'https://api.steemit.com'});
 /**
  * Posts an article to the steem blockchain
  * @param {String} username - username of the account

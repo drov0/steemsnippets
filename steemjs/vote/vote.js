@@ -1,5 +1,5 @@
 var steem = require('steem');
-
+steem.api.setOptions({url: 'https://api.steemit.com'});
 /**
  * Casts a vote.
  * @param {String} username - username of the voter account

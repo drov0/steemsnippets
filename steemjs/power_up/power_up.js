@@ -1,5 +1,5 @@
 var steem = require('steem');
-
+steem.api.setOptions({url: 'https://api.steemit.com'});
 /**
  * Powers up tokens into STEEM Power
  * @param {String} username - username of the account

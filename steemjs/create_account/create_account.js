@@ -1,4 +1,5 @@
 var steem = require('steem');
+steem.api.setOptions({url: 'https://api.steemit.com'});
 var Asset = require('dsteem').Asset;
 
 var testnet = true; // set to true if you want to use the testnet, false for the main net

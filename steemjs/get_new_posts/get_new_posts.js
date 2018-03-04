@@ -1,5 +1,5 @@
 var steem = require('steem');
-
+steem.api.setOptions({url: 'https://api.steemit.com'});
 /**
  * This function will be called when a call to steem api is complete 
  * @callback newPostsCallback
