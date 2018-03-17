@@ -9,12 +9,12 @@ steem.api.setOptions({url: 'https://api.steemit.com'});
 function is_post_active(author, permlink)
 {
     return new Promise(resolve => {
-        var _6_days_ago = Math.floor(new Date().getTime() / 1000) - 86400 * 6;
+        var _7_days_ago = Math.floor(new Date().getTime() / 1000) - 86400 * 7;
         steem.api.getContent(author, permlink, function (err, post_result) {
 
             var created_date = Math.floor(Date.parse(post_result['created']) / 1000);
 
-            if (created_date - _6_days_ago > 0) {
+            if (created_date - _7_days_ago > 0) {
                 resolve(true)
             } else {
                 resolve(false)
@@ -30,7 +30,7 @@ function is_post_active(author, permlink)
 function get_active_votes(username)
 {
     return new Promise( resolve => {
-        var _6_days_ago = Math.floor(new Date().getTime() / 1000) - 86400 * 6;
+        var _7_days_ago = Math.floor(new Date().getTime() / 1000) - 86400 * 7;
         var active_votes = [];
 
         steem.api.getAccountVotes(username,async function (error, result) {
@@ -39,7 +39,7 @@ function get_active_votes(username)
 
                 var post_time = Math.floor(Date.parse(result[i]['time']) / 1000);
 
-                if (post_time  - _6_days_ago > 0) {
+                if (post_time  - _7_days_ago > 0) {
 
                     var author = result[i]['authorperm'].substring(0, result[i]['authorperm'].indexOf("/"));
                     var permlink = result[i]['authorperm'].substring(result[i]['authorperm'].indexOf("/")+1);
