@@ -1,8 +1,8 @@
 {
-  "name": "get_steem_power",
+  "name": "get_followers_following",
   "version": "1.0.0",
-  "description": "Get the steem power of an account",
-  "main": "get_steem_power.js",
+  "description": "Gets number of followers and number of followed accounts",
+  "main": "get_followers_following.js",
   "dependencies": {
     "steem": "^0.6.7"
   },
@@ -11,5 +11,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Martin Lees (http://steemit.com/@howo)",
-  "license": "GNU"
+  "license": "GPL-3.0"
 }

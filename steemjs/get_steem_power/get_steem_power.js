@@ -1,5 +1,3 @@
-var steem = require('steem');
-steem.api.setOptions({url: 'https://api.steemit.com'});
 /**
  * Posts a comment on an already existing article
  * @param {String} username - username of the account
