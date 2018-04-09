@@ -1,0 +1,15 @@
+{
+  "name": "get_steem_power",
+  "version": "1.0.0",
+  "description": "Get the steem power of an account",
+  "main": "get_steem_power.js",
+  "dependencies": {
+    "steem": "^0.6.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Lees",
+  "license": "GNU"
+}
