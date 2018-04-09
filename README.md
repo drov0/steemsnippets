@@ -22,6 +22,7 @@ Made by @Howo : https://steemit.com/@howo
 - [How to get recent posts](https://github.com/drov0/steemsnippets/tree/master/steemjs/get_new_posts)
 - [How to get active votes of an user](https://github.com/drov0/steemsnippets/tree/master/steemjs/get_active_votes)
 - [How to get the steem power of an user](https://github.com/drov0/steemsnippets/tree/master/steemjs/get_steem_power)
+- [How to test if a post exists or not](https://github.com/drov0/steemsnippets/tree/master/steemjs/post_exists)
 - [How to comment on an article](https://github.com/drov0/steemsnippets/tree/master/steemjs/comment)
 - [How to cast a vote/flag](https://github.com/drov0/steemsnippets/tree/master/steemjs/vote)
 - [How to get the voting power of an user ](https://github.com/drov0/steemsnippets/tree/master/steemjs/voting_power)
