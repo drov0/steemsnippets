@@ -31,10 +31,10 @@ function post_exists(author, permlink) {
 async function main() {
     // this exists : https://steemit.com/utopian-io/@howo/steemsnippets-1-2-3-power-up-get-active-votes-and-get-lastest-posts-from-tags
     var exists = await post_exists("howo", "steemsnippets-1-2-3-power-up-get-active-votes-and-get-lastest-posts-from-tags");
-    console.log(exists);
+    console.log(exists); // true
     // this post does not exists
     var not_existing = await post_exists("howo", "nonexistant");
-    console.log(not_existing);
+    console.log(not_existing); // false
 }
 
 main()

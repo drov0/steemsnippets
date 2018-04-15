@@ -29,7 +29,7 @@ function login_using_password(username, password) {
 }
 
 /**
- * Tests if an username/password pair is correct
+ * Tests if an username/private key pair is correct
  * @param {String} username - username of the account
  * @param {String} wif - Private key used for login
  * @param {String} type - Type of the private key, can be "posting", "active" or "owner"
