@@ -15,19 +15,23 @@ Made by @Howo : https://steemit.com/@howo
 
 ## [Steem-js](https://github.com/steemit/steem-js)
 
-- [How to use the @almost-digital's testnet](https://github.com/drov0/steemsnippets/tree/master/steemjs/use_testnet) https://testnet.steem.vc/
+Active snippets (add things to the blockchain)
+- [How to use @almost-digital's testnet](https://github.com/drov0/steemsnippets/tree/master/steemjs/use_testnet) https://testnet.steem.vc/
 - [How to create an account](https://github.com/drov0/steemsnippets/tree/master/steemjs/create_account)
-- [How to test if an username/password or username/privatekey is correct](https://github.com/drov0/steemsnippets/tree/master/steemjs/test_login)
 - [How to post an article](https://github.com/drov0/steemsnippets/tree/master/steemjs/post)
+- [How to comment on an article](https://github.com/drov0/steemsnippets/tree/master/steemjs/comment)
+- [How to cast a vote/flag](https://github.com/drov0/steemsnippets/tree/master/steemjs/vote)
+- [How to transfer steem/sbd](https://github.com/drov0/steemsnippets/tree/master/steemjs/transfer)
+
+Passive snippets (read from the blockchain) :
+- [How to test if an username/password or username/privatekey is correct](https://github.com/drov0/steemsnippets/tree/master/steemjs/test_login)
 - [How to get recent posts](https://github.com/drov0/steemsnippets/tree/master/steemjs/get_new_posts)
 - [How to get active votes of an user](https://github.com/drov0/steemsnippets/tree/master/steemjs/get_active_votes)
 - [How to get the steem power of an user](https://github.com/drov0/steemsnippets/tree/master/steemjs/get_steem_power)
 - [How to get the number of followers and follows of an user](https://github.com/drov0/steemsnippets/tree/master/steemjs/get_followers_following)
 - [How to test if a post exists or not](https://github.com/drov0/steemsnippets/tree/master/steemjs/post_exists)
-- [How to comment on an article](https://github.com/drov0/steemsnippets/tree/master/steemjs/comment)
-- [How to cast a vote/flag](https://github.com/drov0/steemsnippets/tree/master/steemjs/vote)
 - [How to get the voting power of an user ](https://github.com/drov0/steemsnippets/tree/master/steemjs/voting_power)
-- [How to transfer steem/sbd](https://github.com/drov0/steemsnippets/tree/master/steemjs/transfer)
+- [Convert simplified reputation to an approximate raw score](https://github.com/drov0/steemsnippets/tree/master/steemjs/voting_power)
 
 ## [Dsteem](https://github.com/jnordberg/dsteem)
 
