@@ -1,0 +1,15 @@
+{
+  "name": "get_root_post",
+  "version": "1.0.0",
+  "description": "From a comment (username and permlink) get the original post(username and permlink) on which it was done",
+  "main": "get_root_post.js",
+  "dependencies": {
+    "steem": "^0.6.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Lees",
+  "license": "GNU"
+}

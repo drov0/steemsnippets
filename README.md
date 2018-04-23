@@ -8,7 +8,7 @@ If you try a snippet and it ends up not working/is outdated, please open an issu
 
 Don't hesitate to submit a pull request if you want to contribute to the collection.
 
-Made by @Howo : https://steemit.com/@howo
+Made by @howo : https://steemit.com/@howo
 
 
 # Current snippets :
@@ -32,6 +32,7 @@ Passive snippets (read from the blockchain) :
 - [How to test if a post exists or not](https://github.com/drov0/steemsnippets/tree/master/steemjs/post_exists)
 - [How to get the voting power of an user ](https://github.com/drov0/steemsnippets/tree/master/steemjs/voting_power)
 - [Convert simplified reputation to an approximate raw score](https://github.com/drov0/steemsnippets/tree/master/steemjs/voting_power)
+- [How to get the main post author and permlink from a comment](https://github.com/drov0/steemsnippets/tree/master/steemjs/get_root_post)
 
 ## [Dsteem](https://github.com/jnordberg/dsteem)
 
