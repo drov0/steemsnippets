@@ -1,0 +1,16 @@
+{
+  "name": "post",
+  "version": "1.0.0",
+  "description": "Comment on an article to the steem blockchain using the dsteem library",
+  "main": "comment.js",
+  "dependencies": {
+    "dsteem": "^0.8.6",
+    "event-stream": "^3.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Lees",
+  "license": "GNU"
+}
