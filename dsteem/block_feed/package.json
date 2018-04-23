@@ -1,7 +1,7 @@
 {
-  "name": "post",
+  "name": "block_feed",
   "version": "1.0.0",
-  "description": "Comment on an article to the steem blockchain using the dsteem library",
+  "description": "block stream skeleton to easily act on various operations as they go live on the blockchain",
   "main": "comment.js",
   "dependencies": {
     "dsteem": "^0.8.6",
@@ -12,5 +12,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Martin Lees",
-  "license": "GNU"
+  "license": "MIT"
 }
