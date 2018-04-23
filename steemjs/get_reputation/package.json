@@ -1,0 +1,15 @@
+{
+  "name": "get_reputation",
+  "version": "1.0.0",
+  "description": "Get the simplified and raw reputation of an user",
+  "main": "get_reputation.js",
+  "dependencies": {
+    "steem": "^0.6.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Lees",
+  "license": "GNU"
+}
