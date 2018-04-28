@@ -1,0 +1,15 @@
+{
+  "name": "check_token",
+  "version": "1.0.0",
+  "description": "Checks the validity of an access token",
+  "main": "check_token.js",
+  "dependencies": {
+    "sc2-sdk": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Lees",
+  "license": "GNU"
+}
