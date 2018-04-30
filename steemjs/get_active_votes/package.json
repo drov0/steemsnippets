@@ -10,6 +10,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Trevor Reid <trevor.d.reid@gmail.com> (http://steemit.com/@tdre)",
-  "license": "GPL-3.0"
+  "author": "Martin Lees (http://steemit.com/@howo)",
+  "license": "MIT"
 }
