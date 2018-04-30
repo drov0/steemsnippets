@@ -1,5 +1,5 @@
 {
-  "name": "get_new_posts",
+  "name": "get_active_votes",
   "version": "1.0.0",
   "description": "Gets the votes from an user on posts that are still awaiting payout",
   "main": "get_active_votes.js",
