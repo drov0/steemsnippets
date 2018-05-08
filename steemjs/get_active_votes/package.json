@@ -1,5 +1,5 @@
 {
-  "name": "get_new_posts",
+  "name": "get_active_votes",
   "version": "1.0.0",
   "description": "Gets the votes from an user on posts that are still awaiting payout",
   "main": "get_active_votes.js",
@@ -10,6 +10,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Trevor Reid <trevor.d.reid@gmail.com> (http://steemit.com/@tdre)",
-  "license": "GPL-3.0"
+  "author": "Martin Lees (http://steemit.com/@howo)",
+  "license": "MIT"
 }
