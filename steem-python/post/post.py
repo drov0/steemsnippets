@@ -1,8 +1,8 @@
 from steem import Steem
 
 """ Create a new post.
-        If this post is intended as a reply/comment, `reply_identifier` needs to be set with the identifier of the parent
-        post/comment (eg. `@author/permlink`).
+        If this post is intended as a reply/getContent, `reply_identifier` needs to be set with the identifier of the parent
+        post/getContent (eg. `@author/permlink`).
 
         Optionally you can also set json_metadata, comment_options and upvote the newly created post as an author.
 
@@ -13,11 +13,11 @@ from steem import Steem
             username (str) : Username of the account posting
             wif (str) : posting key of the account posting
             title (str): Title of the post
-            body (str): Body of the post/comment
+            body (str): Body of the post/getContent
             author (str): Account are you posting from
             permlink (str): Manually set the permlink (defaults to None).
                 If left empty, it will be derived from title automatically.
-            reply_identifier (str): Identifier of the parent post/comment (only if this post is a reply/comment).
+            reply_identifier (str): Identifier of the parent post/getContent (only if this post is a reply/getContent).
             json_metadata (str, dict): JSON meta object that can be attached to the post.
             comment_options (str, dict): JSON options object that can be attached to the post.
                 Example::
