@@ -19,7 +19,7 @@ Active snippets (add things to the blockchain)
 - [How to use @almost-digital's testnet](https://github.com/drov0/steemsnippets/tree/master/steemjs/use_testnet) https://testnet.steem.vc/
 - [How to create an account](https://github.com/drov0/steemsnippets/tree/master/steemjs/create_account)
 - [How to post an article](https://github.com/drov0/steemsnippets/tree/master/steemjs/post)
-- [How to getContent on an article](https://github.com/drov0/steemsnippets/tree/master/steemjs/getContent)
+- [How to comment on an article](https://github.com/drov0/steemsnippets/tree/master/steemjs/comment)
 - [How to cast a vote/flag](https://github.com/drov0/steemsnippets/tree/master/steemjs/vote)
 - [How to transfer steem/sbd](https://github.com/drov0/steemsnippets/tree/master/steemjs/transfer)
 
@@ -32,13 +32,13 @@ Passive snippets (read from the blockchain) :
 - [How to test if a post exists or not](https://github.com/drov0/steemsnippets/tree/master/steemjs/post_exists)
 - [How to get the voting power of an user ](https://github.com/drov0/steemsnippets/tree/master/steemjs/voting_power)
 - [Convert simplified reputation to an approximate raw score](https://github.com/drov0/steemsnippets/tree/master/steemjs/simplified_rep_to_raw)
-- [How to get the main post author and permlink from a getContent](https://github.com/drov0/steemsnippets/tree/master/steemjs/get_root_post)
+- [How to get the main post author and permlink from a comment](https://github.com/drov0/steemsnippets/tree/master/steemjs/get_root_post)
 - [How to get the simplified and raw reputation of an user](https://github.com/drov0/steemsnippets/tree/master/steemjs/get_reputation)
 
 ## [Dsteem](https://github.com/jnordberg/dsteem)
 
 - [How to post an article](https://github.com/drov0/steemsnippets/tree/master/dsteem/post)
-- [How to getContent on an article](https://github.com/drov0/steemsnippets/tree/master/dsteem/getContent)
+- [How to comment on an article](https://github.com/drov0/steemsnippets/tree/master/dsteem/comment)
 - [How to cast a vote/flag](https://github.com/drov0/steemsnippets/tree/master/dsteem/vote)
 - [block stream skeleton to easily act on various operations as they go live on the blockchain](https://github.com/drov0/steemsnippets/tree/master/dsteem/block_feed)
 
