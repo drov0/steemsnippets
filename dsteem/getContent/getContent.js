@@ -12,8 +12,6 @@ function getContent(author, permlink) {
         const article = await client.database.getDiscussions('blog', {tag: author, start_author: author, start_permlink: permlink, limit: 1});
         return resolve(article);
     });
-
-
 }
 
 // example
