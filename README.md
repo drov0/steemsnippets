@@ -22,6 +22,7 @@ Active snippets (add things to the blockchain)
 - [How to comment on an article](https://github.com/drov0/steemsnippets/tree/master/steemjs/comment)
 - [How to cast a vote/flag](https://github.com/drov0/steemsnippets/tree/master/steemjs/vote)
 - [How to transfer steem/sbd](https://github.com/drov0/steemsnippets/tree/master/steemjs/transfer)
+- [How to resteem a post](https://github.com/drov0/steemsnippets/tree/master/steemjs/resteem)
 
 Passive snippets (read from the blockchain) :
 - [How to test if an username/password or username/privatekey is correct](https://github.com/drov0/steemsnippets/tree/master/steemjs/test_login)
