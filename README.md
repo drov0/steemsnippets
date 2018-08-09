@@ -34,6 +34,7 @@ Passive snippets (read from the blockchain) :
 - [Convert simplified reputation to an approximate raw score](https://github.com/drov0/steemsnippets/tree/master/steemjs/simplified_rep_to_raw)
 - [How to get the main post author and permlink from a comment](https://github.com/drov0/steemsnippets/tree/master/steemjs/get_root_post)
 - [How to get the simplified and raw reputation of an user](https://github.com/drov0/steemsnippets/tree/master/steemjs/get_reputation)
+- [How to get all the comments from a post in an ordered format](https://github.com/drov0/steemsnippets/tree/master/steemjs/get_all_comments)
 
 ## [Dsteem](https://github.com/jnordberg/dsteem)
 

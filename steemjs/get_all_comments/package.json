@@ -1,0 +1,15 @@
+{
+  "name": "get_all_comments",
+  "version": "1.0.0",
+  "description": "Get All the replies from a post.",
+  "main": "get_all_comments.js",
+  "dependencies": {
+    "steem": "^0.6.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Lees",
+  "license": "MIT"
+}
