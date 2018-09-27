@@ -1,19 +1,39 @@
 var steem = require('steem');
 steem.api.setOptions({url: 'https://api.steemit.com'});
 /**
- * Gets the voting power of an account. code mostly by stoodkev
+ * Gets the voting power of an account. code mostly by @asgarth
  * @param {String} account - account of whom we want to check the steem power
  * @param {String} callback - callback which will have the voting power as parameter
  */
-function getvotingpower(account, callback) {
-    steem.api.getAccounts([account], function (err, response) {
-        var secondsago = (new Date - new Date(response[0].last_vote_time + "Z")) / 1000;
-        var vpow = response[0].voting_power + (10000 * secondsago / 432000);
-        vpow = Math.min(vpow / 100, 100).toFixed(2);
-        callback(vpow);
+function getvotingpower(account_name, callback) {
+    return new Promise(resolve => {
+        steem.api.getAccounts([account_name], function (err, account) {
+
+            account = account[0];
+
+            const totalShares = parseFloat(account.vesting_shares) + parseFloat(account.received_vesting_shares) - parseFloat(account.delegated_vesting_shares) - parseFloat(account.vesting_withdraw_rate);
+
+            const elapsed = Math.floor(Date.now() / 1000) - account.voting_manabar.last_update_time;
+            const maxMana = totalShares * 1000000;
+            // 432000 sec = 5 days
+            let currentMana = parseFloat(account.voting_manabar.current_mana) + elapsed * maxMana / 432000;
+
+            if (currentMana > maxMana) {
+                currentMana = maxMana;
+            }
+
+            const currentManaPerc = currentMana * 100 / maxMana;
+
+            return resolve(currentManaPerc);
+        });
     });
 }
-// example
-getvotingpower("howo", function (vpower) {
-    console.log(vpower)
-});
+
+
+async function example()
+{
+    const vp = await getvotingpower("howo");
+    console.log(vp);
+}
+
+example();
