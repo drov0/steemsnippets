@@ -40,6 +40,7 @@ Passive snippets (read from the blockchain) :
 ## [Dsteem](https://github.com/jnordberg/dsteem)
 
 - [How to post an article](https://github.com/drov0/steemsnippets/tree/master/dsteem/post)
+- [How to claim a discounted account](https://github.com/drov0/steemsnippets/tree/master/dsteem/claimAccount)
 - [How to comment on an article](https://github.com/drov0/steemsnippets/tree/master/dsteem/comment)
 - [How to cast a vote/flag](https://github.com/drov0/steemsnippets/tree/master/dsteem/vote)
 - [block stream skeleton to easily act on various operations as they go live on the blockchain](https://github.com/drov0/steemsnippets/tree/master/dsteem/block_feed)
