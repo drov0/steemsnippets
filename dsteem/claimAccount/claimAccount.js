@@ -32,4 +32,4 @@ async function example() {
 
 }
 
-example()
+example();
