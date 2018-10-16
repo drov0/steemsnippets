@@ -3,9 +3,8 @@ steem.api.setOptions({url: 'https://api.steemit.com'});
 /**
  * Gets the voting power of an account. code mostly by @asgarth
  * @param {String} account - account of whom we want to check the steem power
- * @param {String} callback - callback which will have the voting power as parameter
  */
-function getvotingpower(account_name, callback) {
+function getvotingpower(account_name) {
     return new Promise(resolve => {
         steem.api.getAccounts([account_name], function (err, account) {
 
