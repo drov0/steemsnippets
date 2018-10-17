@@ -1,8 +1,8 @@
 {
-  "name": "claimAccount",
+  "name": "Create_discounted_account",
   "version": "1.0.0",
-  "description": "Claim an account for free ",
-  "main": "claimAccount.js",
+  "description": "Creates a discounted account ",
+  "main": "create_discounted_account.js",
   "dependencies": {
     "dsteem": "^0.10.1"
   },
