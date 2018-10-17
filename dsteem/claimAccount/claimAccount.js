@@ -2,6 +2,11 @@ var dsteem = require('dsteem');
 
 var client = new dsteem.Client('https://api.steemit.com');
 
+/**
+ * claims a discounted account.
+ * @param {String} creator - Name of the account that will claim the discounted account.
+ * @param {String} active_key - Active key of the creator account
+ */
 function claim_account(creator, active_key)
 {
     return new Promise(resolve => {
