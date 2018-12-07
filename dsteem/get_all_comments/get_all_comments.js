@@ -82,6 +82,13 @@ function build_comment_data(author, permlink)
     });
 }
 
+/**
+ *
+ * From a comment (username and permlink) get the original post(username and permlink) on which it was done
+ * @param {String} author - username of the author
+ * @param {String} permlink - permlink of the post
+ * @return {Object} an object with all the comments ordered
+ */
 
 function get_all_comments(author, permlink)
 {
