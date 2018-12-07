@@ -8,8 +8,6 @@ function build_get_replies(reply)
 {
     return new Promise(async resolve => {
 
-        console.log(reply.depth);
-
         reply.active_votes =  await client.database.call("get_active_votes", [reply.author, reply.permlink]);
 
         const userTimezoneOffset = new Date().getTimezoneOffset() * 60000;
