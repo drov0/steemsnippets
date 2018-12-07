@@ -1,0 +1,21 @@
+{
+  "name": "get_all_comments",
+  "version": "1.0.0",
+  "description": "Gets all the comments from a post",
+  "main": "get_all_comments.js",
+  "dependencies": {
+    "dsteem": "^0.8.6",
+    "moment": "^2.22.2",
+    "remark": "^10.0.1",
+    "remark-html": "^9.0.0",
+    "sanitize-html": "^1.19.1",
+    "strip-markdown": "^3.0.2",
+    "xss": "^0.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Lees",
+  "license": "MIT"
+}
