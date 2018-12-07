@@ -45,7 +45,7 @@ Passive snippets (read from the blockchain) :
 - [block stream skeleton to easily act on various operations as they go live on the blockchain](https://github.com/drov0/steemsnippets/tree/master/dsteem/block_feed)
 - [How to claim discounted accounts](https://github.com/drov0/steemsnippets/tree/master/dsteem/claim_account)
 - [How to create a discounted account](https://github.com/drov0/steemsnippets/tree/master/dsteem/create_discounted_account)
-- [How to get all the comments from a post in a tree structure](https://github.com/drov0/steemsnippets/tree/master/steemjs/get_all_comments)
+- [How to get all the comments from a post in a tree structure](https://github.com/drov0/steemsnippets/tree/master/dsteem/get_all_comments)
 
 ## [steem-python](https://github.com/steemit/steem-python)
 
