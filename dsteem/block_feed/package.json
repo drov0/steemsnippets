@@ -5,7 +5,7 @@
   "main": "comment.js",
   "dependencies": {
     "dsteem": "^0.8.6",
-    "event-stream": "^3.3.4"
+    "event-stream": "3.3.4"
   },
   "devDependencies": {},
   "scripts": {
