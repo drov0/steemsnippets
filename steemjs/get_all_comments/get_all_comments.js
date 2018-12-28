@@ -50,13 +50,13 @@ function get_all_comments(author, permlink, tag)
             let comment_list = post.content;
             let comments_ordered = [];
             // remove the post itself
-            delete comment_list[author+"/"+permlink];
+            //delete comment_list[author+"/"+permlink];
 
             for (const comment_id in comment_list) {
 
                 let comment = comment_list[comment_id];
 
-                if (comment.depth !== 1)
+                if (comment.depth !== 0)
                     continue;
                 comments_ordered.push(get_replies(comment, comment_list));
             }

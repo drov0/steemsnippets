@@ -1,5 +1,5 @@
 /**
- * Posts a comment on an already existing article
+ * Gets the steem power of an account
  * @param {String} username - username of the account
  @returns {Promise.<Object>} Oject containing the steem power and delegated steem power
  @fulfils {float} steem_power - steem power of the user (without taking into account the delegations)
