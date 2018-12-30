@@ -3,7 +3,7 @@ var dsteem = require('dsteem');
 var client = new dsteem.Client('https://api.steemit.com');
 
 /**
- * Creates an account, note that almost no validation is done.
+ * Creates a comment on a steem post
  * @param {String} username - username of the account
  * @param {String} password - password of the account
  * @param {String} author - Author of the post to comment to
