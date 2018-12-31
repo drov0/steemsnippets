@@ -2,7 +2,7 @@ var dsteem = require('dsteem');
 
 var client = new dsteem.Client('https://api.steemit.com');
 /**
- * Creates an account, note that almost no validation is done.
+ * Posts an article on the steem blockchain 
  * @param {String} username - username of the account
  * @param {String} password - password of the account
  * @param {String} main_tag - The main tag for the post
