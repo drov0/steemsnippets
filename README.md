@@ -27,7 +27,6 @@ Active snippets (add things to the blockchain)
 Passive snippets (read from the blockchain) :
 - [How to test if an username/password or username/privatekey is correct](https://github.com/drov0/steemsnippets/tree/master/steemjs/test_login)
 - [How to get recent posts](https://github.com/drov0/steemsnippets/tree/master/steemjs/get_new_posts)
-- [How to get active votes of an user](https://github.com/drov0/steemsnippets/tree/master/steemjs/get_active_votes)
 - [How to get the steem power of an user](https://github.com/drov0/steemsnippets/tree/master/steemjs/get_steem_power)
 - [How to get the number of followers and follows of an user](https://github.com/drov0/steemsnippets/tree/master/steemjs/get_followers_following)
 - [How to test if a post exists or not](https://github.com/drov0/steemsnippets/tree/master/steemjs/post_exists)
@@ -46,6 +45,7 @@ Passive snippets (read from the blockchain) :
 - [How to claim discounted accounts](https://github.com/drov0/steemsnippets/tree/master/dsteem/claim_account)
 - [How to create a discounted account](https://github.com/drov0/steemsnippets/tree/master/dsteem/create_discounted_account)
 - [How to get all the comments from a post in a tree structure](https://github.com/drov0/steemsnippets/tree/master/dsteem/get_all_comments)
+- [How to get active votes of an user](https://github.com/drov0/steemsnippets/tree/master/dsteem/get_active_votes)
 
 ## [steem-python](https://github.com/steemit/steem-python)
 
