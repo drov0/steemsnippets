@@ -1,0 +1,17 @@
+{
+  "name": "get_active_votes",
+  "version": "1.0.0",
+  "description": "Gets the active votes from one author using list_votes",
+  "main": "comment.js",
+  "dependencies": {
+    "dsteem": "^0.11.2",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Lees",
+  "license": "MIT"
+}
