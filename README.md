@@ -23,6 +23,7 @@ Active snippets (add things to the blockchain)
 - [How to cast a vote/flag](https://github.com/drov0/steemsnippets/tree/master/steemjs/vote)
 - [How to transfer steem/sbd](https://github.com/drov0/steemsnippets/tree/master/steemjs/transfer)
 - [How to resteem a post](https://github.com/drov0/steemsnippets/tree/master/steemjs/resteem)
+- [How to power up steem](https://github.com/drov0/steemsnippets/tree/master/steemjs/power_up)
 
 Passive snippets (read from the blockchain) :
 - [How to test if an username/password or username/privatekey is correct](https://github.com/drov0/steemsnippets/tree/master/steemjs/test_login)
@@ -46,6 +47,7 @@ Passive snippets (read from the blockchain) :
 - [How to create a discounted account](https://github.com/drov0/steemsnippets/tree/master/dsteem/create_discounted_account)
 - [How to get all the comments from a post in a tree structure](https://github.com/drov0/steemsnippets/tree/master/dsteem/get_all_comments)
 - [How to get active votes of an user](https://github.com/drov0/steemsnippets/tree/master/dsteem/get_active_votes)
+- [How to power up steem](https://github.com/drov0/steemsnippets/tree/master/dsteem/power_up)
 
 ## [steem-python](https://github.com/steemit/steem-python)
 
