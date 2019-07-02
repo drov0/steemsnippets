@@ -66,7 +66,7 @@ function createAccount(username, password, owner_name, wif, callback)
                 throw new Error(err2);
             }
 
-            // Get the ratio to create an account without delegation, as of writing this it's 30.
+            // Get the ratio to create an account without delegation, as of writing this it's 3.
             var ratio = config['STEEMIT_CREATE_ACCOUNT_WITH_STEEM_MODIFIER'];
             // Get the account creation fee and multiply it by the ratio to get the fee needed to create an account without delegation
             var fee = Asset.from(chainProps.account_creation_fee).multiply(ratio);
