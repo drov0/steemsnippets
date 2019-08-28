@@ -1,0 +1,15 @@
+{
+  "name": "get_downvoting_power",
+  "version": "1.0.0",
+  "description": "Gets the downvoting power percentage",
+  "main": "comment.js",
+  "dependencies": {
+    "dsteem": "^0.8.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Lees",
+  "license": "MIT"
+}

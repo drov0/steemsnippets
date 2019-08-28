@@ -32,6 +32,7 @@ Passive snippets (read from the blockchain) :
 - [How to get the number of followers and follows of an user](https://github.com/drov0/steemsnippets/tree/master/steemjs/get_followers_following)
 - [How to test if a post exists or not](https://github.com/drov0/steemsnippets/tree/master/steemjs/post_exists)
 - [How to get the voting power of an user ](https://github.com/drov0/steemsnippets/tree/master/steemjs/voting_power)
+- [How to get the downvoting power of an user ](https://github.com/drov0/steemsnippets/tree/master/steemjs/downvoting_power)
 - [Convert simplified reputation to an approximate raw score](https://github.com/drov0/steemsnippets/tree/master/steemjs/simplified_rep_to_raw)
 - [How to get the main post author and permlink from a comment](https://github.com/drov0/steemsnippets/tree/master/steemjs/get_root_post)
 - [How to get the simplified and raw reputation of an user](https://github.com/drov0/steemsnippets/tree/master/steemjs/get_reputation)
@@ -48,6 +49,7 @@ Passive snippets (read from the blockchain) :
 - [How to get all the comments from a post in a tree structure](https://github.com/drov0/steemsnippets/tree/master/dsteem/get_all_comments)
 - [How to get active votes of an user](https://github.com/drov0/steemsnippets/tree/master/dsteem/get_active_votes)
 - [How to power up steem](https://github.com/drov0/steemsnippets/tree/master/dsteem/power_up)
+- [How to get the downvoting power of an user ](https://github.com/drov0/steemsnippets/tree/master/dsteem/get_downvoting_power)
 
 ## [steem-python](https://github.com/steemit/steem-python)
 

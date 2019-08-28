@@ -8,7 +8,7 @@
 function get_steem_power(username) {
 
     const steem = require('steem');
-    steem.api.setOptions({url: 'https://rpc.buildteam.io'});
+    steem.api.setOptions({url: 'https://api.steemit.com'});
 
     return new Promise(resolve => {
     steem.api.getAccounts([username], function (err, account) {

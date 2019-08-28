@@ -1,0 +1,15 @@
+{
+  "name": "downvoting_power",
+  "version": "1.0.0",
+  "description": "Gets the downvoting power of an user",
+  "main": "downvoting_power.js",
+  "dependencies": {
+    "steem": "^0.6.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Lees",
+  "license": "MIT"
+}
