@@ -1,0 +1,15 @@
+{
+  "name": "account_update2",
+  "version": "1.0.0",
+  "description": "Updates posting_json_metadata using posting key",
+  "main": "account_update2.js",
+  "dependencies": {
+    "steem": "^0.7.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Lees (http://steemit.com/@howo)",
+  "license": "MIT"
+}
